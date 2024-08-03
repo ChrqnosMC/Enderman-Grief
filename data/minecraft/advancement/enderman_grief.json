@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:ender_pearl"
+		},
+		"title": "Enderman Griefing",
+		"description": ["",{"text":"Removes the grief for endermans except for Melon and Pumpkin","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "minecraft:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
