@@ -39,7 +39,7 @@ jobs:
         uses: kir-antipov/mc-publish@v3.3
         with:
           modrinth-token: ${{secrets.ACCESS_TOKEN}}
-          modrinth-id: qKCUthaY
+          modrinth-id: LLomXBnX
           name: Enderman Grief ${{env.branch}}-${{env.tag}}
           version: ${{env.tag}}
           files: |
